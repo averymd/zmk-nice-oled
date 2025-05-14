@@ -6,15 +6,26 @@
 
 <a name="top"></a>
 
+- [nice!oled - nice!epaper](#niceoled---niceepaper)
+  - [Table of Contents](#table-of-contents)
+- [averymd Fork](#averymd-fork)
 - [Overview](#overview)
 - [Gallery](#gallery)
 - [Quick Installation](#quick-installation)
 - [Configuration](#configuration)
 - [Suggestions](#suggestions)
 - [Limitations](#limitations)
-- [Inspiration & Credits](#inspiration)
-- [Support](#if-you-like-my-contributions-please-dont-forget-the-following)
-- [My other projects](#my-other-projects)
+- [Inspiration](#inspiration)
+- [If you like my contributions, please don't forget the following:](#if-you-like-my-contributions-please-dont-forget-the-following)
+- [My other projects:](#my-other-projects)
+
+# averymd Fork
+
+Goals:
+
+1. Switch Shift modifier to barking
+2. Make Backspace and Delete the sneak animation
+3. TODO: Switch adorable Luna for adorable cat or BMO
 
 # Overview
 Vertical widgets for [oled] and [niceview] screens using zmk (for split and non-split keyboards)
