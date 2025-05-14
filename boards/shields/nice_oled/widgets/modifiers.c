@@ -106,20 +106,20 @@ static void set_modifiers_text(lv_obj_t *label,
       lv_animimg_start(luna_imgs);
       lv_obj_align(luna_imgs, LV_ALIGN_TOP_LEFT, 36, 0);
     }
-  } else if (BACKSPACE | DELETE) {
-    if (!luna_imgs) {
+  // } else if (BACKSPACE | DELETE) {
+  //   if (!luna_imgs) {
 
-      luna_imgs = lv_animimg_create(label);
-      lv_obj_center(luna_imgs);
+  //     luna_imgs = lv_animimg_create(label);
+  //     lv_obj_center(luna_imgs);
 
-      lv_animimg_set_src(luna_imgs, (const void **)luna_imgs_sneak_90, 2);
-      lv_animimg_set_duration(
-          luna_imgs,
-          CONFIG_NICE_OLED_WIDGET_MODIFIERS_INDICATORS_LUNA_ANIMATION_MS);
-      lv_animimg_set_repeat_count(luna_imgs, LV_ANIM_REPEAT_INFINITE);
-      lv_animimg_start(luna_imgs);
-      lv_obj_align(luna_imgs, LV_ALIGN_TOP_LEFT, 36, 0);
-    }
+  //     lv_animimg_set_src(luna_imgs, (const void **)luna_imgs_sneak_90, 2);
+  //     lv_animimg_set_duration(
+  //         luna_imgs,
+  //         CONFIG_NICE_OLED_WIDGET_MODIFIERS_INDICATORS_LUNA_ANIMATION_MS);
+  //     lv_animimg_set_repeat_count(luna_imgs, LV_ANIM_REPEAT_INFINITE);
+  //     lv_animimg_start(luna_imgs);
+  //     lv_obj_align(luna_imgs, LV_ALIGN_TOP_LEFT, 36, 0);
+  //   }
   } else {
     if (luna_imgs) {
       lv_obj_del(luna_imgs);
